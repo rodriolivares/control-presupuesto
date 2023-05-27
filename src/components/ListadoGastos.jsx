@@ -14,7 +14,7 @@ const ListadoGastos = ({
 
             { filtro ? (
                     <>
-                        <h2>{gastosFiltrados.length ? 'Gastos' : 'No hay Gastos aún'}</h2>
+                        <h2>{gastosFiltrados.length ? 'Gastos (toca y arrastra un gasto para editarlo o eliminarlo)' : 'No hay Gastos aún'}</h2>
 
                         {gastosFiltrados.map(gasto => (
                             <Gasto 
