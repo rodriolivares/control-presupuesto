@@ -27,7 +27,7 @@ const ListadoGastos = ({
                     </>
                 ) : (
                     <> 
-                        <h2>{gastos.length ? 'Gastos' : 'No hay Gastos aún'}</h2>
+                        <h2>{gastos.length ? 'Gastos (toca y arrastra un gasto para editarlo o eliminarlo)' : 'No hay Gastos aún'}</h2>
                         
                         {gastos.map(gasto => (
                             <Gasto 
